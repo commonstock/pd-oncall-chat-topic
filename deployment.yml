@@ -73,11 +73,11 @@ Resources:
     Properties:
       AttributeDefinitions:
         -
-          AttributeName: "escalation_policy"
+          AttributeName: "policy"
           AttributeType: "S"
       KeySchema:
         -
-          AttributeName: "escalation_policy"
+          AttributeName: "policy"
           KeyType: "HASH"
       ProvisionedThroughput:
         ReadCapacityUnits: 1
