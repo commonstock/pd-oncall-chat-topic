@@ -73,11 +73,11 @@ Resources:
     Properties:
       AttributeDefinitions:
         -
-          AttributeName: "schedule"
+          AttributeName: "policy"
           AttributeType: "S"
       KeySchema:
         -
-          AttributeName: "schedule"
+          AttributeName: "policy"
           KeyType: "HASH"
       ProvisionedThroughput:
         ReadCapacityUnits: 1
