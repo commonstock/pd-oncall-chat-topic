@@ -172,7 +172,7 @@ def do_work(obj):
         topic = "On Call:"
 
         for i, username in enumerate(usernames, start=1):
-            topic += f" L{i}-{username}"
+            topic += f" {username}"
 
         if 'slack' in obj.keys():
             slack = obj['slack']['S']
